@@ -1,0 +1,41 @@
+# C-A-F-F-E-E canon (folk melody)
+
+qLong = (quant 90)
+bOther = (quant 60) (mf)
+bOne = qLong (f)
+
+melx = [
+    bOne c bOther e g
+    ]
+
+mel = [
+    (octave 5)
+    bOne c4 bOther <a f |
+    bOne f bOther e e |
+    (octave 4)
+    bOne e bOther g e |
+    bOne f8 bOther e f g f4 |
+    %p2
+    (octave 4)
+    bOne a8 bOther a > c c < a a |
+    bOne b- bOther a b- > c < b-4
+    (octave 4)
+    bOne g8 bOther g  a+ a+ g g |
+    bOne a bOther g a  b- a4
+    %p3
+    bOne f4 bOther f f
+    bOne g bOther g g
+    bOne c bOther c >c
+    bOne c < bOther c qLong f
+]
+
+bassoon:
+    mel
+
+clarinet:
+    @p2
+   mel
+
+ocarina:
+    @p2
+   mel
